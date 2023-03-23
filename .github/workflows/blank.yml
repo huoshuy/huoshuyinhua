@@ -1,7 +1,7 @@
 name: GLaDOS-CheckIn
 on:
   push:
-  	# 分支 现在默认是main，而不是master
+       # 分支 现在默认是main，而不是master
     branches: [ main ]
     # 将工作流程配置为在至少一个文件不匹配paths-ignore的paths时运行
     # 忽略README.md和imgs文件夹
